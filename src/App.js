@@ -105,7 +105,8 @@ function App() {
       {todos.map((todo) => (
         <TodoListItem todo={todo.todo} inprogress={todo.inprogress} id={todo.id} />
       ))}
-      </div> 
+      </div>
+      <footer style={{paddingTop: "10%"}}> <div id="Copyright">&#60;Crafted by Akshad Kolhatkar&#62;</div></footer>
     </div>
   );
 }
