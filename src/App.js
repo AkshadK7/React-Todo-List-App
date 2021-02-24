@@ -84,6 +84,7 @@ function App() {
     <div style={
     {
       border: '1px solid black',
+      borderRadius: '5px',
      marginTop: '8%',
      backgroundColor: '#4A646C'
     }
@@ -96,7 +97,7 @@ function App() {
           variant="outlined"
           value={todoInput} 
           onChange={(e) => setTodoInput(e.target.value)} 
-          style={{ maxWidth:"300px", width: "90vw"}}
+          style={{ maxWidth:"300px", width: "90vw", backgroundColor: '#dbdbdb'}}
           />
           <Button type="submit" variant="contained" onClick={addTodo} 
           style={{display:"none"}}>Default</Button>
@@ -106,6 +107,8 @@ function App() {
         <TodoListItem todo={todo.todo} inprogress={todo.inprogress} id={todo.id} />
       ))}
       </div> 
+
+      <footer style={{paddingTop: "10%"}}> <div id="Copyright">&#60;Crafted by Akshad Kolhatkar&#62;</div></footer>
     </div>
   );
 }
