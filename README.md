@@ -72,10 +72,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Preview 
 
-### Mobile View
+### Mobile View:
 ![Display Image Mobile](https://github.com/AkshadK7/Todo-List-App/blob/master/src/img/Todo-Mobile-View.png)
 
-### Desktop View
+### Desktop View:
 ![Display Image Desktop](https://github.com/AkshadK7/Todo-List-App/blob/master/src/img/Todo-Desktop-View.png)
 
 
